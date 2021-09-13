@@ -8,7 +8,7 @@
 ## This app about magic book. 
 You could ask this book about something what worry you.   
 When you touch this book📕, it gives answer for you! 😎.   
-___*Good luck and have fun my Friends!*___💛
+*Good luck and have fun my Friends!*💛
 ***
 I used:
 <ul>
@@ -24,10 +24,10 @@ when you opening or closing this virtual book you can hear sound effect 👻 *(A
 
 >````swift
 >    func playSound() {
-        let url = Bundle.main.url(forResource: "shot", withExtension: "mp3")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player.play()
-    }
+>        let url = Bundle.main.url(forResource: "shot", withExtension: "mp3")
+>        player = try! AVAudioPlayer(contentsOf: url!)
+>        player.play()
+>    }
 >````
 
 You can open or close this book enough touch the book.   
@@ -56,12 +56,13 @@ ___Example a code for click on book:___
     }
 ````
 ***
-Example app:
-![]()
+Example app: 
+> <img src="https://github.com/grafon100/ask_book/blob/master/ask_book.gif" width="500" height="500">  
 ***
 All images and sounds using in this app was take with open resources.   
 _Type of licence:_ __Non-Commercial__.  
 __This app is not intended for commercial use!__  
+***
 *If you are the owner of these images or sounds and  
 you do not want your materials to be presented in this application,  
 or it somehow violates your copyright.   
