@@ -10,21 +10,17 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
-    
     var player: AVAudioPlayer!
     var player2: AVAudioPlayer!
     
     @IBOutlet weak var bookImage: UIImageView!
-    
     @IBOutlet weak var textAnswer: UILabel!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setBook()
         playSound2()
     }
-    
     
     func playSound() {
         let url = Bundle.main.url(forResource: "shot", withExtension: "mp3")
@@ -39,11 +35,7 @@ class ViewController: UIViewController {
     }
     
     
-    
-
-    
     @IBAction func changeText(_ sender: UIButton) {
-        
         let arrayText = ["YES", "NO", "MAYBE", "NO DOUBT ABOUT IT", "ABSOLUTELY", "THE STARS SAY NO", "SO IT SHALL BE", "UNLIKELY", "INDICATIONS SAY YES", "POSITIVELY", "YOU CAN COUNT ON IT", "ANSWER UNCLEAR ASK LATER", "DON'T BET ON IT", "LOOKS LIKE YES", "CHANCE AREN'T GOOD", "FOCUS AND ASK AGAIN", "CAN'T SAY NOW", "PROSPECT GOOD", "VERY LIKELY", "CONSULT ME LATER", "CANNOT FORETELL NOW"]
         if bookImage.image == #imageLiteral(resourceName: "clouse_book") {
             playSound()
@@ -52,7 +44,6 @@ class ViewController: UIViewController {
         } else {
             setBook()
         }
-        
     }
     
     @IBAction func resetAsk(_ sender: UIButton) {
@@ -63,8 +54,5 @@ class ViewController: UIViewController {
         self.bookImage.image = #imageLiteral(resourceName: "clouse_book")
         self.textAnswer.text = "ASK Me"
     }
-    
-    
-    
 }
 
