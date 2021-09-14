@@ -67,6 +67,7 @@ __This app is not intended for commercial use!__
 you do not want your materials to be presented in this application,  
 or it somehow violates your copyright.   
 Please let me know and I will remove this material from the application immediately.*  
+***
 Email: <mikita.hnidzin@icloud.com>
 
 
